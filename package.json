@@ -1,0 +1,41 @@
+{
+  "name": "jia-jian-cheng-chu",
+  "version": "1.0.0",
+  "description": "加减乘除，计算题（卡片）。",
+  "scripts": {
+    "dev": "DEBUG=app:* webpack-dev-server --port 3000 --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Wang Xiaoqiang <wxq521@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "@types/react": "^16.7.20",
+    "@types/react-dom": "^16.0.11",
+    "babel-loader": "^8.0.5",
+    "react": "^16.7.0",
+    "react-bootstrap": "^1.0.0-beta.3",
+    "react-dom": "^16.7.0",
+    "webpack": "^4.28.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "clean-webpack-plugin": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-template": "^6.2.0",
+    "jest": "^23.6.0",
+    "regenerator-runtime": "^0.13.1",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.2.4",
+    "webpack-cli": "^3.2.0",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-merge": "^4.2.1"
+  }
+}
