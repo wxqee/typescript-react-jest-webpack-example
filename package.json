@@ -8,9 +8,6 @@
     "test": "jest",
     "test:snapshot:update": "jest --updateSnapshot"
   },
-  "jest": {
-    "testEnvironment": "node"
-  },
   "keywords": [],
   "author": "Wang Xiaoqiang <wxq521@gmail.com>",
   "license": "ISC",
@@ -24,12 +21,14 @@
     "webpack": "^4.28.3"
   },
   "devDependencies": {
+    "@types/jest": "^23.3.13",
     "clean-webpack-plugin": "^1.0.0",
     "html-webpack-plugin": "^3.2.0",
     "html-webpack-template": "^6.2.0",
-    "jest": "^23.6.0",
+    "jest": "^24.0.0",
     "regenerator-runtime": "^0.13.1",
     "source-map-loader": "^0.2.4",
+    "ts-jest": "^23.10.5",
     "ts-loader": "^5.3.3",
     "typescript": "^3.2.4",
     "webpack-cli": "^3.2.0",

@@ -18,3 +18,4 @@ yarn build
 
 - [react-boostrap](https://react-bootstrap.github.io/)
 - [TypeScript & React & Webpack](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html)
+- [Using Jest with TypeScript](https://basarat.gitbooks.io/typescript/docs/testing/jest.html)
